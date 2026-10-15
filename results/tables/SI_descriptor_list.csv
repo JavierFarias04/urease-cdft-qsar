@@ -1,0 +1,307 @@
+descriptor,block,definition,source
+homo_energy,CDFT reactivity,"ε_HOMO, energy of the highest occupied molecular orbital (hartree)","This work, Table S7 (equations verified against the supplied values)"
+homo_.1_energy,CDFT reactivity,"ε_HOMO−1, energy of the next-highest occupied molecular orbital (hartree)","This work, Table S7 (equations verified against the supplied values)"
+lumo_energy,CDFT reactivity,"ε_LUMO, energy of the lowest unoccupied molecular orbital (hartree)","This work, Table S7 (equations verified against the supplied values)"
+gap,CDFT reactivity,"HOMO–LUMO gap, ε_LUMO − ε_HOMO","This work, Table S7 (equations verified against the supplied values)"
+potential_ionization,CDFT reactivity,"ionization potential under Koopmans' approximation, IP = −ε_HOMO","This work, Table S7 (equations verified against the supplied values)"
+affinity_electronic,CDFT reactivity,"electron affinity under Koopmans' approximation, EA = −ε_LUMO","This work, Table S7 (equations verified against the supplied values)"
+chemical_potential,CDFT reactivity,"electronic chemical potential, μ = (ε_HOMO + ε_LUMO)/2","This work, Table S7 (equations verified against the supplied values)"
+hardness,CDFT reactivity,"chemical hardness, η = (ε_LUMO − ε_HOMO)/2","This work, Table S7 (equations verified against the supplied values)"
+softness,CDFT reactivity,"chemical softness, S = 1/(ε_LUMO − ε_HOMO) = 1/(2η)","This work, Table S7 (equations verified against the supplied values)"
+electronegativity,CDFT reactivity,"Mulliken electronegativity, χ = −μ","This work, Table S7 (equations verified against the supplied values)"
+electrophilicity,CDFT reactivity,"global electrophilicity index, ω = μ²/(2η)","This work, Table S7 (equations verified against the supplied values)"
+nucleophilicity,CDFT reactivity,"nucleophilicity index, N = ε_HOMO − ε_HOMO(TCE), referenced to tetracyanoethylene; the implied reference is ε_HOMO(TCE) = -0.344290 hartree = -9.3686 eV","This work, Table S7 (equations verified against the supplied values)"
+acceptor_power,CDFT reactivity,"electroaccepting power, ω⁺ = (ε_HOMO + 3ε_LUMO)²/(16(ε_LUMO − ε_HOMO))","This work, Table S7 (equations verified against the supplied values)"
+donor_power,CDFT reactivity,"electrodonating power, ω⁻ = (3ε_HOMO + ε_LUMO)²/(16(ε_LUMO − ε_HOMO))","This work, Table S7 (equations verified against the supplied values)"
+net_electrophilicity,CDFT reactivity,"net electrophilicity, Δω± = ω⁺ + ω⁻","This work, Table S7 (equations verified against the supplied values)"
+hyperhardness,CDFT reactivity,"hyperhardness, γ = ε_LUMO − 2ε_HOMO + ε_HOMO−1","This work, Table S7 (equations verified against the supplied values)"
+chemical_potential_pos,CDFT reactivity,"chemical potential for electron acceptance, μ⁺ = (3ε_LUMO + ε_HOMO)/4","This work, Table S7 (equations verified against the supplied values)"
+chemical_potential_neg,CDFT reactivity,"chemical potential for electron donation, μ⁻ = (ε_LUMO + 3ε_HOMO)/4","This work, Table S7 (equations verified against the supplied values)"
+dual_reactivity_index,CDFT reactivity,dual reactivity index as supplied; constant at 1.0 for all 600 records and therefore uninformative,"This work, Table S7 (equations verified against the supplied values)"
+Fsp3,Physicochemical,Returns the number of sp3 hybridized carbons divided by total carbon count,CDK Fsp3
+nSmallRings,Physicochemical,Total number of small rings (of size 3 through 9),CDK SmallRingDescriptor
+nAromRings,Physicochemical,Total number of small aromatic rings,CDK SmallRingDescriptor
+nRingBlocks,Physicochemical,Total number of distinct ring blocks,CDK SmallRingDescriptor
+nAromBlocks,Physicochemical,Total number of,CDK SmallRingDescriptor
+nRings3,Physicochemical,Total number of 3-membered rings,CDK SmallRingDescriptor
+nRings4,Physicochemical,Total number of 4-membered rings,CDK SmallRingDescriptor
+nRings5,Physicochemical,Total number of 5-membered rings,CDK SmallRingDescriptor
+nRings6,Physicochemical,Total number of 6-membered rings,CDK SmallRingDescriptor
+nRings7,Physicochemical,Total number of 7-membered rings,CDK SmallRingDescriptor
+nRings8,Physicochemical,Total number of 8-membered rings,CDK SmallRingDescriptor
+nRings9,Physicochemical,Total number of 9-membered rings @cdk.dictref qsar-descriptors:smallrings @cdk.keyword smallrings @cdk.keyword descriptor,CDK SmallRingDescriptor
+tpsaEfficiency,Physicochemical,Topological polar surface area divided by molecular weight,CDK descriptor dictionary: tpsa
+Zagreb,Physicochemical,The sum of the squared atom degrees of all heavy atoms,CDK descriptor dictionary: zagrebIndex
+XLogP,Physicochemical,Prediction of logP based on the atom-type method called XLogP,CDK descriptor dictionary: xlogP
+WPATH,Physicochemical,Wiener path number,CDK descriptor dictionary: wienerNumbers
+WPOL,Physicochemical,Wiener polarity number,CDK descriptor dictionary: wienerNumbers
+Wlambda1.unity,Physicochemical,WHIM holistic descriptor from the weighted covariance matrix of the atomic coordinates: directional size component λ1 of the 11 directional components; atom weighting: unit weights. Symbol conventions follow Todeschini et al,CDK WHIM
+Wlambda2.unity,Physicochemical,WHIM holistic descriptor from the weighted covariance matrix of the atomic coordinates: directional size component λ2 of the 11 directional components; atom weighting: unit weights. Symbol conventions follow Todeschini et al,CDK WHIM
+Wlambda3.unity,Physicochemical,WHIM holistic descriptor from the weighted covariance matrix of the atomic coordinates: directional size component λ3 of the 11 directional components; atom weighting: unit weights. Symbol conventions follow Todeschini et al,CDK WHIM
+Wnu1.unity,Physicochemical,WHIM holistic descriptor from the weighted covariance matrix of the atomic coordinates: directional component ν1 of the 11 directional components; atom weighting: unit weights. Symbol conventions follow Todeschini et al,CDK WHIM
+Wnu2.unity,Physicochemical,WHIM holistic descriptor from the weighted covariance matrix of the atomic coordinates: directional component ν2 of the 11 directional components; atom weighting: unit weights. Symbol conventions follow Todeschini et al,CDK WHIM
+Wgamma1.unity,Physicochemical,WHIM holistic descriptor from the weighted covariance matrix of the atomic coordinates: directional symmetry component γ1 of the 11 directional components; atom weighting: unit weights. Symbol conventions follow Todeschini et al,CDK WHIM
+Wgamma2.unity,Physicochemical,WHIM holistic descriptor from the weighted covariance matrix of the atomic coordinates: directional symmetry component γ2 of the 11 directional components; atom weighting: unit weights. Symbol conventions follow Todeschini et al,CDK WHIM
+Wgamma3.unity,Physicochemical,WHIM holistic descriptor from the weighted covariance matrix of the atomic coordinates: directional symmetry component γ3 of the 11 directional components; atom weighting: unit weights. Symbol conventions follow Todeschini et al,CDK WHIM
+Weta1.unity,Physicochemical,WHIM holistic descriptor from the weighted covariance matrix of the atomic coordinates: directional component η1 of the 11 directional components; atom weighting: unit weights. Symbol conventions follow Todeschini et al,CDK WHIM
+Weta2.unity,Physicochemical,WHIM holistic descriptor from the weighted covariance matrix of the atomic coordinates: directional component η2 of the 11 directional components; atom weighting: unit weights. Symbol conventions follow Todeschini et al,CDK WHIM
+Weta3.unity,Physicochemical,WHIM holistic descriptor from the weighted covariance matrix of the atomic coordinates: directional component η3 of the 11 directional components; atom weighting: unit weights. Symbol conventions follow Todeschini et al,CDK WHIM
+WT.unity,Physicochemical,"WHIM holistic descriptor, non-directional component T of the six (T, A, V, K, G, D); atom weighting: unit weights. Symbol conventions follow Todeschini et al",CDK WHIM
+WA.unity,Physicochemical,"WHIM holistic descriptor, non-directional component A of the six (T, A, V, K, G, D); atom weighting: unit weights. Symbol conventions follow Todeschini et al",CDK WHIM
+WV.unity,Physicochemical,"WHIM holistic descriptor, non-directional component V of the six (T, A, V, K, G, D); atom weighting: unit weights. Symbol conventions follow Todeschini et al",CDK WHIM
+WK.unity,Physicochemical,"WHIM holistic descriptor, non-directional component K of the six (T, A, V, K, G, D); atom weighting: unit weights. Symbol conventions follow Todeschini et al",CDK WHIM
+WG.unity,Physicochemical,"WHIM holistic descriptor, non-directional component G of the six (T, A, V, K, G, D); atom weighting: unit weights. Symbol conventions follow Todeschini et al",CDK WHIM
+WD.unity,Physicochemical,"WHIM holistic descriptor, non-directional component D of the six (T, A, V, K, G, D); atom weighting: unit weights. Symbol conventions follow Todeschini et al",CDK WHIM
+WTPT.1,Physicochemical,Molecular ID,CDK WeightedPathDescriptor
+WTPT.2,Physicochemical,Molecular ID divided by the number of atoms,CDK WeightedPathDescriptor
+WTPT.3,Physicochemical,Sum of path lengths starting from heteroatoms,CDK WeightedPathDescriptor
+WTPT.4,Physicochemical,Sum of path lengths starting from oxygens,CDK WeightedPathDescriptor
+WTPT.5,Physicochemical,Sum of path lengths starting from nitrogens,CDK WeightedPathDescriptor
+MW,Physicochemical,"Descriptor based on the weight of atoms of a certain element type. If no element is specified, the returned value is the Molecular Weight",CDK descriptor dictionary: weight
+VAdjMat,Physicochemical,Descriptor that calculates the vertex adjacency information of a molecule,CDK descriptor dictionary: vAdjMa
+VABC,Physicochemical,Describes the volume of a molecule,CDK descriptor dictionary: vabc
+TopoPSA,Physicochemical,Topological polar surface area,CDK descriptor dictionary: tpsa
+LipinskiFailures,Physicochemical,This Class contains a method that returns the number failures of the Lipinski's Rule Of Five,CDK descriptor dictionary: lipinskifailures
+nRotB,Physicochemical,Descriptor that calculates the number of nonrotatable bonds on a molecule,CDK descriptor dictionary: rotatableBondsCount
+topoShape,Physicochemical,Topological shape index,CDK PetitjeanShapeIndexDescriptor
+geomShape,Physicochemical,Geometric shape index Parameters for this descriptor: Name Default Description no parameters @author Rajarshi Guha @cdk.created 2006-01-14 @cdk.dictref qsar-descriptors:petitjeanShapeIndex @cdk.key,CDK PetitjeanShapeIndexDescriptor
+PetitjeanNumber,Physicochemical,Descriptor that calculates the Petitjean Number of a molecule,CDK descriptor dictionary: petitjeanNumber
+MOMI.X,Physicochemical,MI along X axis,CDK MomentOfInertiaDescriptor
+MOMI.Y,Physicochemical,MI along Y axis,CDK MomentOfInertiaDescriptor
+MOMI.Z,Physicochemical,MI along Z axis,CDK MomentOfInertiaDescriptor
+MOMI.XY,Physicochemical,Ratio of the principal moments of inertia along the X and Y axes,CDK MomentOfInertiaDescriptor
+MOMI.XZ,Physicochemical,Ratio of the principal moments of inertia along the X and Z axes,CDK MomentOfInertiaDescriptor
+MOMI.YZ,Physicochemical,Ratio of the principal moments of inertia along the Y and Z axes,CDK MomentOfInertiaDescriptor
+MOMI.R,Physicochemical,"Radius of gyration One important aspect of the algorithm is that if the eigenvalues of the MI tensor are below 1e-3, then the ratio's are set to a default of 1000. Parameters for this descriptor: N",CDK MomentOfInertiaDescriptor
+MDEC.11,Physicochemical,Molecular distance edge between all primary carbons,CDK MDEDescriptor
+MDEC.12,Physicochemical,Molecular distance edge between all primary and secondary carbons,CDK MDEDescriptor
+MDEC.13,Physicochemical,Molecular distance edge between all primary and tertiary carbons,CDK MDEDescriptor
+MDEC.14,Physicochemical,Molecular distance edge between all primary and quaternary carbons,CDK MDEDescriptor
+MDEC.22,Physicochemical,Molecular distance edge between all secondary carbons,CDK MDEDescriptor
+MDEC.23,Physicochemical,Molecular distance edge between all secondary and tertiary carbons,CDK MDEDescriptor
+MDEC.24,Physicochemical,Molecular distance edge between all secondary and quaternary carbons,CDK MDEDescriptor
+MDEC.33,Physicochemical,Molecular distance edge between all tertiary carbons,CDK MDEDescriptor
+MDEC.34,Physicochemical,Molecular distance edge between all tertiary and quaternary carbons,CDK MDEDescriptor
+MDEC.44,Physicochemical,Molecular distance edge between all quaternary carbons,CDK MDEDescriptor
+MDEO.11,Physicochemical,Molecular distance edge between all primary oxygens,CDK MDEDescriptor
+MDEO.12,Physicochemical,Molecular distance edge between all primary and secondary oxygens,CDK MDEDescriptor
+MDEO.22,Physicochemical,Molecular distance edge between all secondary oxygens,CDK MDEDescriptor
+MDEN.11,Physicochemical,Molecular distance edge between all primary nitrogens,CDK MDEDescriptor
+MDEN.12,Physicochemical,Molecular distance edge between all primary and secondary nitrogens,CDK MDEDescriptor
+MDEN.13,Physicochemical,Molecular distance edge between all primary and tertiary niroqens,CDK MDEDescriptor
+MDEN.22,Physicochemical,Molecular distance edge between all secondary nitroqens,CDK MDEDescriptor
+MDEN.23,Physicochemical,Molecular distance edge between all secondary and tertiary nitrogens,CDK MDEDescriptor
+MDEN.33,Physicochemical,Molecular distance edge between all tertiary nitrogens @author Rajarshi Guha @cdk.created 2006-09-18 @cdk.dictref qsar-descriptors:mde,CDK MDEDescriptor
+MLogP,Physicochemical,Descriptor that calculates the LogP based on a simple equation using the number of carbons and hetero atoms,CDK descriptor dictionary: mannholdLogP
+nAtomLAC,Physicochemical,Returns the number of atoms in the longest aliphatic chain,CDK descriptor dictionary: longestAliphaticChain
+LOBMAX,Physicochemical,The maximum L/B ratio,CDK LengthOverBreadthDescriptor
+LOBMIN,Physicochemical,The L/B ratio for the rotation that results in the minimum area (defined by the product of the X &amp; Y extents for that orientation) Note: The descriptor assumes that the atoms have been configur,CDK LengthOverBreadthDescriptor
+nAtomP,Physicochemical,Returns the number of atoms in the largest pi chain,CDK descriptor dictionary: largestPiSystem
+nAtomLC,Physicochemical,Returns the number of atoms in the largest chain,CDK descriptor dictionary: largestChain
+khs.sLi,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [LiD1]-*,CDK descriptor dictionary: kierHallSmarts
+khs.ssBe,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [BeD2](-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.ssssBe,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [BeD4](-*)(-*)(-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.ssBH,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [BD2H](-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.sssB,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [BD3](-*)(-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.ssssB,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [BD4](-*)(-*)(-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.sCH3,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [CD1H3]-*,CDK descriptor dictionary: kierHallSmarts
+khs.dCH2,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [CD1H2]=*,CDK descriptor dictionary: kierHallSmarts
+khs.ssCH2,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [CD2H2](-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.tCH,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [CD1H]#*,CDK descriptor dictionary: kierHallSmarts
+khs.dsCH,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [CD2H](=*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.aaCH,Physicochemical,"Count of the Kier–Hall electrotopological-state atom type matching SMARTS [C,c;D2H](:*):*",CDK descriptor dictionary: kierHallSmarts
+khs.sssCH,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [CD3H](-*)(-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.ddC,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [CD2H0](=*)=*,CDK descriptor dictionary: kierHallSmarts
+khs.tsC,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [CD2H0](#*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.dssC,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [CD3H0](=*)(-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.aasC,Physicochemical,"Count of the Kier–Hall electrotopological-state atom type matching SMARTS [C,c;D3H0](:*)(:*)-*",CDK descriptor dictionary: kierHallSmarts
+khs.aaaC,Physicochemical,"Count of the Kier–Hall electrotopological-state atom type matching SMARTS [C,c;D3H0](:*)(:*):*",CDK descriptor dictionary: kierHallSmarts
+khs.ssssC,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [CD4H0](-*)(-*)(-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.sNH3,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [ND1H3]-*,CDK descriptor dictionary: kierHallSmarts
+khs.sNH2,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [ND1H2]-*,CDK descriptor dictionary: kierHallSmarts
+khs.ssNH2,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [ND2H2](-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.dNH,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [ND1H]=*,CDK descriptor dictionary: kierHallSmarts
+khs.ssNH,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [ND2H](-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.aaNH,Physicochemical,"Count of the Kier–Hall electrotopological-state atom type matching SMARTS [N,nD2H](:*):*",CDK descriptor dictionary: kierHallSmarts
+khs.tN,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [ND1H0]#*,CDK descriptor dictionary: kierHallSmarts
+khs.sssNH,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [ND3H](-*)(-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.dsN,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [ND2H0](=*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.aaN,Physicochemical,"Count of the Kier–Hall electrotopological-state atom type matching SMARTS [N,nD2H0](:*):*",CDK descriptor dictionary: kierHallSmarts
+khs.sssN,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [ND3H0](-*)(-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.ddsN,Physicochemical,"Count of the Kier–Hall electrotopological-state atom type matching SMARTS [ND3H0](~[OD1H0])(~[OD1H0])-,:*",CDK descriptor dictionary: kierHallSmarts
+khs.aasN,Physicochemical,"Count of the Kier–Hall electrotopological-state atom type matching SMARTS [N,nD3H0](:*)(:*)-,:*",CDK descriptor dictionary: kierHallSmarts
+khs.ssssN,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [ND4H0](-*)(-*)(-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.sOH,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [OD1H]-*,CDK descriptor dictionary: kierHallSmarts
+khs.dO,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [OD1H0]=*,CDK descriptor dictionary: kierHallSmarts
+khs.ssO,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [OD2H0](-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.aaO,Physicochemical,"Count of the Kier–Hall electrotopological-state atom type matching SMARTS [O,oD2H0](:*):*",CDK descriptor dictionary: kierHallSmarts
+khs.sF,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [FD1]-*,CDK descriptor dictionary: kierHallSmarts
+khs.sSiH3,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [SiD1H3]-*,CDK descriptor dictionary: kierHallSmarts
+khs.ssSiH2,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [SiD2H2](-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.sssSiH,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [SiD3H1](-*)(-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.ssssSi,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [SiD4H0](-*)(-*)(-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.sPH2,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [PD1H2]-*,CDK descriptor dictionary: kierHallSmarts
+khs.ssPH,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [PD2H1](-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.sssP,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [PD3H0](-*)(-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.dsssP,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [PD4H0](=*)(-*)(-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.sssssP,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [PD5H0](-*)(-*)(-*)(-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.sSH,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [SD1H1]-*,CDK descriptor dictionary: kierHallSmarts
+khs.dS,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [SD1H0]=*,CDK descriptor dictionary: kierHallSmarts
+khs.ssS,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [SD2H0](-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.aaS,Physicochemical,"Count of the Kier–Hall electrotopological-state atom type matching SMARTS [S,sD2H0](:*):*",CDK descriptor dictionary: kierHallSmarts
+khs.dssS,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [SD3H0](=*)(-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.ddssS,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [SD4H0](~[OD1H0])(~[OD1H0])(-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.sCl,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [ClD1]-*,CDK descriptor dictionary: kierHallSmarts
+khs.sGeH3,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [GeD1H3](-*),CDK descriptor dictionary: kierHallSmarts
+khs.ssGeH2,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [GeD2H2](-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.sssGeH,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [GeD3H1](-*)(-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.ssssGe,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [GeD4H0](-*)(-*)(-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.sAsH2,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [AsD1H2]-*,CDK descriptor dictionary: kierHallSmarts
+khs.ssAsH,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [AsD2H1](-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.sssAs,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [AsD3H0](-*)(-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.sssdAs,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [AsD4H0](=*)(-*)(-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.sssssAs,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [AsD5H0](-*)(-*)(-*)(-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.sSeH,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [SeD1H1]-*,CDK descriptor dictionary: kierHallSmarts
+khs.dSe,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [SeD1H0]=*,CDK descriptor dictionary: kierHallSmarts
+khs.ssSe,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [SeD2H0](-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.aaSe,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [SeD2H0](:*):*,CDK descriptor dictionary: kierHallSmarts
+khs.dssSe,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [SeD3H0](=*)(-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.ddssSe,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [SeD4H0](=*)(=*)(-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.sBr,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [BrD1]-*,CDK descriptor dictionary: kierHallSmarts
+khs.sSnH3,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [SnD1H3]-*,CDK descriptor dictionary: kierHallSmarts
+khs.ssSnH2,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [SnD2H2](-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.sssSnH,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [SnD3H1](-*)(-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.ssssSn,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [SnD4H0](-*)(-*)(-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.sI,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [ID1]-*,CDK descriptor dictionary: kierHallSmarts
+khs.sPbH3,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [PbD1H3]-*,CDK descriptor dictionary: kierHallSmarts
+khs.ssPbH2,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [PbD2H2](-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.sssPbH,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [PbD3H1](-*)(-*)-*,CDK descriptor dictionary: kierHallSmarts
+khs.ssssPb,Physicochemical,Count of the Kier–Hall electrotopological-state atom type matching SMARTS [PbD4H0](-*)(-*)(-*)-*,CDK descriptor dictionary: kierHallSmarts
+Kier1,Physicochemical,First kappa shape index,CDK KappaShapeIndicesDescriptor
+Kier2,Physicochemical,Second kappa shape index,CDK KappaShapeIndicesDescriptor
+Kier3,Physicochemical,Third kappa (&kappa;) shape index This descriptor does not have any parameters. @author mfe4 @cdk.created 2004-11-03 @cdk.dictref qsar-descriptors:kierValues @cdk.keyword Kappe shape index @cdk.key,CDK KappaShapeIndicesDescriptor
+HybRatio,Physicochemical,Characterizes molecular complexity in terms of carbon hybridization states,CDK descriptor dictionary: hybratio
+nHBDon,Physicochemical,Descriptor that calculates the number of hydrogen bond donors,CDK descriptor dictionary: hBondDonors
+nHBAcc,Physicochemical,Descriptor that calculates the number of hydrogen bond acceptors,CDK descriptor dictionary: hBondacceptors
+GRAV.1,Physicochemical,Gravitational index of heavy atoms,CDK GravitationalIndexDescriptor
+GRAV.2,Physicochemical,Square root of gravitational index of heavy atoms,CDK GravitationalIndexDescriptor
+GRAV.3,Physicochemical,Cube root of gravitational index of heavy atoms,CDK GravitationalIndexDescriptor
+GRAVH.1,Physicochemical,Gravitational index - hydrogens included,CDK GravitationalIndexDescriptor
+GRAVH.2,Physicochemical,Square root of hydrogen-included gravitational index,CDK GravitationalIndexDescriptor
+GRAVH.3,Physicochemical,Cube root of hydrogen-included gravitational index,CDK GravitationalIndexDescriptor
+GRAV.4,Physicochemical,Grav1 for all pairs of atoms (not just bonded pairs),CDK GravitationalIndexDescriptor
+GRAV.5,Physicochemical,Grav2 for all pairs of atoms (not just bonded pairs),CDK GravitationalIndexDescriptor
+GRAV.6,Physicochemical,Grav3 for all pairs of atoms (not just bonded pairs) Parameters for this descriptor: Name Default Description no parameters @author Rajarshi Guha @cdk.created 2004-11-23 @cdk.dictref qsar-descripto,CDK GravitationalIndexDescriptor
+fragC,Physicochemical,Class that returns the complexity of a system. The complexity is defined as @cdk.cite{Nilakantan06},CDK NilaComplexity
+FMF,Physicochemical,Descriptor characterizing molecular complexity in terms of its Murcko framework,CDK descriptor dictionary: fmf
+ECCEN,Physicochemical,A topological descriptor combining distance and adjacency information,CDK descriptor dictionary: eccentricConnectivityIndex
+PPSA.1,Physicochemical,"Partial positive surface area, sum of surface area on positive parts of molecule",CDK CPSADescriptor
+PPSA.2,Physicochemical,Partial positive surface area total positive charge on the molecule,CDK CPSADescriptor
+PPSA.3,Physicochemical,Charge weighted partial positive surface area,CDK CPSADescriptor
+PNSA.1,Physicochemical,"Partial negative surface area, sum of surface area on negative parts of molecule",CDK CPSADescriptor
+PNSA.2,Physicochemical,Partial negative surface area total negative charge on the molecule,CDK CPSADescriptor
+PNSA.3,Physicochemical,Charge weighted partial negative surface area,CDK CPSADescriptor
+DPSA.1,Physicochemical,Difference of,CDK CPSADescriptor
+DPSA.2,Physicochemical,Difference of,CDK CPSADescriptor
+DPSA.3,Physicochemical,Difference of,CDK CPSADescriptor
+FPSA.1,Physicochemical,PPSA-1 divided by the total molecular surface area,CDK CPSADescriptor
+FPSA.2,Physicochemical,PPSA-2 divided by the total molecular surface area,CDK CPSADescriptor (erratum in the source: the CDK javadoc table prints this name as FFSA-2; corrected here)
+FPSA.3,Physicochemical,PPSA-3 divided by the total molecular surface area,CDK CPSADescriptor
+FNSA.1,Physicochemical,PNSA-1 divided by the total molecular surface area,CDK CPSADescriptor
+FNSA.2,Physicochemical,PNSA-2 divided by the total molecular surface area,CDK CPSADescriptor
+FNSA.3,Physicochemical,PNSA-3 divided by the total molecular surface area,CDK CPSADescriptor
+WPSA.1,Physicochemical,"PPSA-1 multiplied by the total molecular surface area, divided by 1000",CDK CPSADescriptor
+WPSA.2,Physicochemical,"PPSA-2 multiplied by the total molecular surface area, divided by 1000",CDK CPSADescriptor
+WPSA.3,Physicochemical,"PPSA-3 multiplied by the total molecular surface area, divided by 1000",CDK CPSADescriptor
+WNSA.1,Physicochemical,"PNSA-1 multiplied by the total molecular surface area, divided by 1000",CDK CPSADescriptor
+WNSA.2,Physicochemical,"PNSA-2 multiplied by the total molecular surface area, divided by 1000",CDK CPSADescriptor
+WNSA.3,Physicochemical,"PNSA-3 multiplied by the total molecular surface area, divided by 1000",CDK CPSADescriptor
+RPCG,Physicochemical,"Relative positive charge, most positive charge / total positive charge",CDK CPSADescriptor
+RNCG,Physicochemical,"Relative negative charge, most negative charge / total negative charge",CDK CPSADescriptor
+RPCS,Physicochemical,"Relative positive charge surface area, most positive surface area",CDK CPSADescriptor
+RNCS,Physicochemical,"Relative negative charge surface area, most negative surface area",CDK CPSADescriptor
+THSA,Physicochemical,Sum of solvent accessible surface areas of atoms with absolute value of partial charges less than 0.2,CDK CPSADescriptor
+TPSA,Physicochemical,/ total molecular surface area NOTE : The values calculated by this implementation will differ from those calculated by the original ADAPT implementation of the CPSA descriptors. This is because the,CDK CPSADescriptor
+RHSA,Physicochemical,Relative hydrophobic surface area,CDK CPSA
+RPSA,Physicochemical,Relative polar surface area,CDK CPSA
+SP.0,Physicochemical,"Simple path chi index, order 0",CDK ChiPathDescriptor
+SP.1,Physicochemical,"Simple path chi index, order 1",CDK ChiPathDescriptor
+SP.2,Physicochemical,"Simple path chi index, order 2",CDK ChiPathDescriptor
+SP.3,Physicochemical,"Simple path chi index, order 3",CDK ChiPathDescriptor
+SP.4,Physicochemical,"Simple path chi index, order 4",CDK ChiPathDescriptor
+SP.5,Physicochemical,"Simple path chi index, order 5",CDK ChiPathDescriptor
+SP.6,Physicochemical,"Simple path chi index, order 6",CDK ChiPathDescriptor
+SP.7,Physicochemical,"Simple path chi index, order 7",CDK ChiPathDescriptor
+VP.0,Physicochemical,"Valence path chi index, order 0",CDK ChiPathDescriptor
+VP.1,Physicochemical,"Valence path chi index, order 1",CDK ChiPathDescriptor
+VP.2,Physicochemical,"Valence path chi index, order 2",CDK ChiPathDescriptor
+VP.3,Physicochemical,"Valence path chi index, order 3",CDK ChiPathDescriptor
+VP.4,Physicochemical,"Valence path chi index, order 4",CDK ChiPathDescriptor
+VP.5,Physicochemical,"Valence path chi index, order 5",CDK ChiPathDescriptor
+VP.6,Physicochemical,"Valence path chi index, order 6",CDK ChiPathDescriptor
+VP.7,Physicochemical,"Valence path chi index, order 7",CDK ChiPathDescriptor
+SPC.4,Physicochemical,"Simple path cluster, order 4",CDK ChiPathClusterDescriptor
+SPC.5,Physicochemical,"Simple path cluster, order 5",CDK ChiPathClusterDescriptor
+SPC.6,Physicochemical,"Simple path cluster, order 6",CDK ChiPathClusterDescriptor
+VPC.4,Physicochemical,"Valence path cluster, order 4",CDK ChiPathClusterDescriptor
+VPC.5,Physicochemical,"Valence path cluster, order 5",CDK ChiPathClusterDescriptor
+VPC.6,Physicochemical,"Valence path cluster, order 6 Note : These descriptors are calculated using graph isomorphism to identify the various fragments. As a result calculations may be slow. In addition, recent versions o",CDK ChiPathClusterDescriptor
+SC.3,Physicochemical,"Simple cluster, order 3",CDK ChiClusterDescriptor
+SC.4,Physicochemical,"Simple cluster, order 4",CDK ChiClusterDescriptor
+SC.5,Physicochemical,"Simple cluster, order 5",CDK ChiClusterDescriptor
+SC.6,Physicochemical,"Simple cluster, order 6",CDK ChiClusterDescriptor
+VC.3,Physicochemical,"Valence cluster, order 3",CDK ChiClusterDescriptor
+VC.4,Physicochemical,"Valence cluster, order 4",CDK ChiClusterDescriptor
+VC.5,Physicochemical,"Valence cluster, order 5",CDK ChiClusterDescriptor
+VC.6,Physicochemical,"Valence cluster, order 6 Note : These descriptors are calculated using graph isomorphism to identify the various fragments. As a result calculations may be slow. In addition, recent versions of Mol",CDK ChiClusterDescriptor
+SCH.3,Physicochemical,"Simple chain, order 3",CDK ChiChainDescriptor
+SCH.4,Physicochemical,"Simple chain, order 4",CDK ChiChainDescriptor
+SCH.5,Physicochemical,"Simple chain, order 5",CDK ChiChainDescriptor
+SCH.6,Physicochemical,"Simple chain, order 6",CDK ChiChainDescriptor
+SCH.7,Physicochemical,"Simple chain, order 7",CDK ChiChainDescriptor
+VCH.3,Physicochemical,"Valence chain, order 3",CDK ChiChainDescriptor
+VCH.4,Physicochemical,"Valence chain, order 4",CDK ChiChainDescriptor
+VCH.5,Physicochemical,"Valence chain, order 5",CDK ChiChainDescriptor
+VCH.6,Physicochemical,"Valence chain, order 6",CDK ChiChainDescriptor
+VCH.7,Physicochemical,"Valence chain, order 7 Note : These descriptors are calculated using graph isomorphism to identify the various fragments. As a result calculations may be slow. In addition, recent versions of Molco",CDK ChiChainDescriptor
+C1SP1,Physicochemical,Triply bound carbon bound to one other carbon,CDK CarbonTypesDescriptor (erratum in the source: the CDK javadoc reads 'triply hound' for 'triply bound'; corrected here)
+C2SP1,Physicochemical,Triply bound carbon bound to two other carbons,CDK CarbonTypesDescriptor
+C1SP2,Physicochemical,Doubly bound carbon bound to one other carbon,CDK CarbonTypesDescriptor (erratum in the source: the CDK javadoc reads 'doubly hound' for 'doubly bound'; corrected here)
+C2SP2,Physicochemical,Doubly bound carbon bound to two other carbons,CDK CarbonTypesDescriptor
+C3SP2,Physicochemical,Doubly bound carbon bound to three other carbons,CDK CarbonTypesDescriptor
+C1SP3,Physicochemical,Singly bound carbon bound to one other carbon,CDK CarbonTypesDescriptor
+C2SP3,Physicochemical,Singly bound carbon bound to two other carbons,CDK CarbonTypesDescriptor
+C3SP3,Physicochemical,Singly bound carbon bound to three other carbons,CDK CarbonTypesDescriptor
+C4SP3,Physicochemical,Singly bound carbon bound to four other carbons Parameters for this descriptor: Name Default Description no parameters @author Rajarshi Guha @cdk.created 2007-09-28 @cdk.dictref qsar-descriptors:carb,CDK CarbonTypesDescriptor
+bpol,Physicochemical,Descriptor that calculates the sum of the absolute value of the difference between atomic polarizabilities of all bonded atoms in the molecule (including implicit hydrogens),CDK descriptor dictionary: bpol
+nB,Physicochemical,Descriptor based on the number of bonds of a certain bond order,CDK descriptor dictionary: bondCount
+BCUTw.1l,Physicochemical,1st lowest Burden eigenvalue weighted by atomic weight,CDK BCUTDescriptor
+BCUTw.1h,Physicochemical,1st highest Burden eigenvalue weighted by atomic weight,CDK BCUTDescriptor
+BCUTc.1l,Physicochemical,1st lowest Burden eigenvalue weighted by partial charge,CDK BCUTDescriptor
+BCUTc.1h,Physicochemical,1st highest Burden eigenvalue weighted by partial charge,CDK BCUTDescriptor
+BCUTp.1l,Physicochemical,1st lowest Burden eigenvalue weighted by polarizability,CDK BCUTDescriptor
+BCUTp.1h,Physicochemical,1st highest Burden eigenvalue weighted by polarizability,CDK BCUTDescriptor
+nBase,Physicochemical,Returns the number of basic groups,CDK descriptor dictionary: basicGroupCount
+ATSp1,Physicochemical,"Broto–Moreau autocorrelation of topological structure weighted by polarizability, summed over atom pairs at topological distance 0 (CDK indexes the first component at distance 0)",CDK descriptor dictionary: autoCorrelationPolarizability
+ATSp2,Physicochemical,"Broto–Moreau autocorrelation of topological structure weighted by polarizability, summed over atom pairs at topological distance 1 (CDK indexes the first component at distance 0)",CDK descriptor dictionary: autoCorrelationPolarizability
+ATSp3,Physicochemical,"Broto–Moreau autocorrelation of topological structure weighted by polarizability, summed over atom pairs at topological distance 2 (CDK indexes the first component at distance 0)",CDK descriptor dictionary: autoCorrelationPolarizability
+ATSp4,Physicochemical,"Broto–Moreau autocorrelation of topological structure weighted by polarizability, summed over atom pairs at topological distance 3 (CDK indexes the first component at distance 0)",CDK descriptor dictionary: autoCorrelationPolarizability
+ATSp5,Physicochemical,"Broto–Moreau autocorrelation of topological structure weighted by polarizability, summed over atom pairs at topological distance 4 (CDK indexes the first component at distance 0)",CDK descriptor dictionary: autoCorrelationPolarizability
+ATSm1,Physicochemical,"Broto–Moreau autocorrelation of topological structure weighted by atomic mass, summed over atom pairs at topological distance 0 (CDK indexes the first component at distance 0)",CDK descriptor dictionary: autoCorrelationMass
+ATSm2,Physicochemical,"Broto–Moreau autocorrelation of topological structure weighted by atomic mass, summed over atom pairs at topological distance 1 (CDK indexes the first component at distance 0)",CDK descriptor dictionary: autoCorrelationMass
+ATSm3,Physicochemical,"Broto–Moreau autocorrelation of topological structure weighted by atomic mass, summed over atom pairs at topological distance 2 (CDK indexes the first component at distance 0)",CDK descriptor dictionary: autoCorrelationMass
+ATSm4,Physicochemical,"Broto–Moreau autocorrelation of topological structure weighted by atomic mass, summed over atom pairs at topological distance 3 (CDK indexes the first component at distance 0)",CDK descriptor dictionary: autoCorrelationMass
+ATSm5,Physicochemical,"Broto–Moreau autocorrelation of topological structure weighted by atomic mass, summed over atom pairs at topological distance 4 (CDK indexes the first component at distance 0)",CDK descriptor dictionary: autoCorrelationMass
+ATSc1,Physicochemical,"Broto–Moreau autocorrelation of topological structure weighted by partial charge, summed over atom pairs at topological distance 0 (CDK indexes the first component at distance 0)",CDK descriptor dictionary: autoCorrelationCharge
+ATSc2,Physicochemical,"Broto–Moreau autocorrelation of topological structure weighted by partial charge, summed over atom pairs at topological distance 1 (CDK indexes the first component at distance 0)",CDK descriptor dictionary: autoCorrelationCharge
+ATSc3,Physicochemical,"Broto–Moreau autocorrelation of topological structure weighted by partial charge, summed over atom pairs at topological distance 2 (CDK indexes the first component at distance 0)",CDK descriptor dictionary: autoCorrelationCharge
+ATSc4,Physicochemical,"Broto–Moreau autocorrelation of topological structure weighted by partial charge, summed over atom pairs at topological distance 3 (CDK indexes the first component at distance 0)",CDK descriptor dictionary: autoCorrelationCharge
+ATSc5,Physicochemical,"Broto–Moreau autocorrelation of topological structure weighted by partial charge, summed over atom pairs at topological distance 4 (CDK indexes the first component at distance 0)",CDK descriptor dictionary: autoCorrelationCharge
+nAtom,Physicochemical,Descriptor based on the number of atoms of a certain element type,CDK descriptor dictionary: atomCount
+nAromBond,Physicochemical,Descriptor based on the number of aromatic bonds of a molecule,CDK descriptor dictionary: aromaticBondsCount
+naAromAtom,Physicochemical,Descriptor based on the number of aromatic atoms of a molecule,CDK descriptor dictionary: aromaticAtomsCount
+apol,Physicochemical,Descriptor that calculates the sum of the atomic polarizabilities (including implicit hydrogens),CDK descriptor dictionary: apol
+ALogP,Physicochemical,Calculates atom additive logP and molar refractivity values as described by Ghose and Crippen and,CDK ALOGP
+ALogp2,Physicochemical,Squared Ghose–Crippen ALogP,CDK ALOGP
+AMR,Physicochemical,Ghose–Crippen molar refractivity,CDK ALOGP
+nAcid,Physicochemical,Returns the number of acidic groups,CDK descriptor dictionary: acidicGroupCount

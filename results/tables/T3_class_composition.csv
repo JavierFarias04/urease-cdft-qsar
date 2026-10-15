@@ -1,0 +1,13 @@
+Compound set,Activity definition,Type,"Inhibitors, UI (n)","Non-inhibitors, nUI (n)",Total modeled (n),"Excluded, intermediate zone (n)",Minority class (%)
+600 records (as previously analyzed),5 uM,single-cutoff,106,494,600,0,17.7
+600 records (as previously analyzed),5 and 50 uM,two-cutoff,106,314,420,180,25.2
+600 records (as previously analyzed),10 uM,single-cutoff,125,475,600,0,20.8
+600 records (as previously analyzed),10 and 50 uM,two-cutoff,125,314,439,161,28.5
+600 records (as previously analyzed),25 uM,single-cutoff,181,419,600,0,30.2
+600 records (as previously analyzed),25 and 50 uM,two-cutoff,181,314,495,105,36.6
+387 unique structures,5 uM,single-cutoff,87,300,387,0,22.5
+387 unique structures,5 and 50 uM,two-cutoff,87,184,271,116,32.1
+387 unique structures,10 uM,single-cutoff,97,290,387,0,25.1
+387 unique structures,10 and 50 uM,two-cutoff,97,184,281,106,34.5
+387 unique structures,25 uM,single-cutoff,129,258,387,0,33.3
+387 unique structures,25 and 50 uM,two-cutoff,129,184,313,74,41.2

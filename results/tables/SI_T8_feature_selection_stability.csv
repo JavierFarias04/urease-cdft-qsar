@@ -1,0 +1,313 @@
+method,feature,origin,selection_frequency,n_runs
+Boruta,WTPT.5,Physicochemical,1.0,240
+Boruta,C1SP2,Physicochemical,0.996,240
+Boruta,SCH.6,Physicochemical,0.992,240
+Boruta,MDEN.22,Physicochemical,0.983,240
+Boruta,MDEN.23,Physicochemical,0.979,240
+Boruta,VCH.5,Physicochemical,0.942,240
+Boruta,hyperhardness,CDFT reactivity,0.925,240
+Boruta,VCH.6,Physicochemical,0.904,240
+Boruta,khs.aaN,Physicochemical,0.9,240
+Boruta,MDEC.22,Physicochemical,0.887,240
+Boruta,SCH.5,Physicochemical,0.875,240
+Boruta,MDEO.12,Physicochemical,0.871,240
+Boruta,hardness,CDFT reactivity,0.858,240
+Boruta,softness,CDFT reactivity,0.854,240
+Boruta,gap,CDFT reactivity,0.85,240
+Boruta,BCUTc.1h,Physicochemical,0.804,240
+Boruta,ATSc5,Physicochemical,0.792,240
+Boruta,ATSc4,Physicochemical,0.746,240
+Boruta,nRings5,Physicochemical,0.738,240
+Boruta,ATSc3,Physicochemical,0.696,240
+Boruta,RHSA,Physicochemical,0.683,240
+Boruta,RPSA,Physicochemical,0.683,240
+Boruta,ATSc1,Physicochemical,0.554,240
+Boruta,WTPT.4,Physicochemical,0.529,240
+Boruta,THSA,Physicochemical,0.446,240
+Boruta,ATSc2,Physicochemical,0.417,240
+Boruta,khs.dsCH,Physicochemical,0.412,240
+Boruta,khs.ssCH2,Physicochemical,0.392,240
+Boruta,C2SP3,Physicochemical,0.375,240
+Boruta,nAromBlocks,Physicochemical,0.346,240
+Boruta,TPSA,Physicochemical,0.333,240
+Boruta,naAromAtom,Physicochemical,0.333,240
+Boruta,C3SP2,Physicochemical,0.308,240
+Boruta,nAromBond,Physicochemical,0.308,240
+Boruta,MDEC.33,Physicochemical,0.267,240
+Boruta,SPC.6,Physicochemical,0.25,240
+Boruta,nRotB,Physicochemical,0.229,240
+Boruta,SPC.5,Physicochemical,0.217,240
+Boruta,khs.aasN,Physicochemical,0.183,240
+Boruta,khs.dsN,Physicochemical,0.175,240
+Boruta,RPCG,Physicochemical,0.171,240
+Boruta,VCH.7,Physicochemical,0.133,240
+Boruta,nRingBlocks,Physicochemical,0.133,240
+Boruta,khs.aaCH,Physicochemical,0.125,240
+Boruta,SCH.7,Physicochemical,0.117,240
+Boruta,net_electrophilicity,CDFT reactivity,0.113,240
+Boruta,SP.7,Physicochemical,0.1,240
+Boruta,SP.6,Physicochemical,0.092,240
+Boruta,MLogP,Physicochemical,0.092,240
+Boruta,FNSA.3,Physicochemical,0.092,240
+Boruta,nAtomLAC,Physicochemical,0.071,240
+Boruta,nRings6,Physicochemical,0.062,240
+Boruta,khs.aaO,Physicochemical,0.058,240
+Boruta,Weta3.unity,Physicochemical,0.05,240
+Boruta,nAtomP,Physicochemical,0.05,240
+Boruta,ATSm5,Physicochemical,0.05,240
+Boruta,chemical_potential_pos,CDFT reactivity,0.046,240
+Boruta,nAtomLC,Physicochemical,0.042,240
+Boruta,BCUTc.1l,Physicochemical,0.042,240
+Boruta,khs.aaNH,Physicochemical,0.042,240
+Boruta,MDEC.23,Physicochemical,0.037,240
+Boruta,SC.5,Physicochemical,0.037,240
+Boruta,RPCS,Physicochemical,0.033,240
+Boruta,donor_power,CDFT reactivity,0.029,240
+Boruta,khs.dssC,Physicochemical,0.029,240
+Boruta,ATSp5,Physicochemical,0.025,240
+Boruta,SP.5,Physicochemical,0.025,240
+Boruta,electronegativity,CDFT reactivity,0.025,240
+Boruta,VP.7,Physicochemical,0.021,240
+Boruta,SC.3,Physicochemical,0.021,240
+Boruta,lumo_energy,CDFT reactivity,0.021,240
+Boruta,khs.aaaC,Physicochemical,0.021,240
+Boruta,BCUTp.1h,Physicochemical,0.021,240
+Boruta,PNSA.3,Physicochemical,0.017,240
+Boruta,Kier3,Physicochemical,0.017,240
+Boruta,khs.ssNH,Physicochemical,0.017,240
+Boruta,VABC,Physicochemical,0.017,240
+Boruta,apol,Physicochemical,0.017,240
+Boruta,ATSp4,Physicochemical,0.017,240
+Boruta,SPC.4,Physicochemical,0.013,240
+Boruta,Wlambda3.unity,Physicochemical,0.013,240
+Boruta,SP.4,Physicochemical,0.013,240
+Boruta,potential_ionization,CDFT reactivity,0.013,240
+Boruta,VP.0,Physicochemical,0.013,240
+Boruta,AMR,Physicochemical,0.013,240
+Boruta,WTPT.1,Physicochemical,0.008,240
+Boruta,nucleophilicity,CDFT reactivity,0.008,240
+Boruta,tpsaEfficiency,Physicochemical,0.008,240
+Boruta,chemical_potential,CDFT reactivity,0.008,240
+Boruta,homo_energy,CDFT reactivity,0.008,240
+Boruta,affinity_electronic,CDFT reactivity,0.008,240
+Boruta,chemical_potential_neg,CDFT reactivity,0.008,240
+Boruta,HybRatio,Physicochemical,0.008,240
+Boruta,VP.2,Physicochemical,0.008,240
+Boruta,ATSm4,Physicochemical,0.008,240
+Boruta,VP.6,Physicochemical,0.004,240
+Boruta,MDEO.22,Physicochemical,0.004,240
+Boruta,VPC.6,Physicochemical,0.004,240
+Boruta,SP.3,Physicochemical,0.004,240
+Boruta,ALogP,Physicochemical,0.004,240
+Boruta,family_Coumarin,Chemical family,0.004,240
+Boruta,SP.2,Physicochemical,0.004,240
+Boruta,electrophilicity,CDFT reactivity,0.004,240
+Boruta,Fsp3,Physicochemical,0.004,240
+XGBoost gain,C1SP2,Physicochemical,1.0,240
+XGBoost gain,ATSc5,Physicochemical,0.975,240
+XGBoost gain,BCUTc.1h,Physicochemical,0.958,240
+XGBoost gain,WTPT.5,Physicochemical,0.95,240
+XGBoost gain,WTPT.2,Physicochemical,0.925,240
+XGBoost gain,ATSc3,Physicochemical,0.908,240
+XGBoost gain,RHSA,Physicochemical,0.892,240
+XGBoost gain,SCH.6,Physicochemical,0.883,240
+XGBoost gain,RPCG,Physicochemical,0.879,240
+XGBoost gain,hyperhardness,CDFT reactivity,0.863,240
+XGBoost gain,MDEC.23,Physicochemical,0.858,240
+XGBoost gain,RPCS,Physicochemical,0.829,240
+XGBoost gain,Weta1.unity,Physicochemical,0.817,240
+XGBoost gain,ECCEN,Physicochemical,0.804,240
+XGBoost gain,LOBMAX,Physicochemical,0.796,240
+XGBoost gain,WTPT.3,Physicochemical,0.787,240
+XGBoost gain,nRings6,Physicochemical,0.771,240
+XGBoost gain,MOMI.XZ,Physicochemical,0.767,240
+XGBoost gain,lumo_energy,CDFT reactivity,0.75,240
+XGBoost gain,MDEC.33,Physicochemical,0.721,240
+XGBoost gain,MDEC.22,Physicochemical,0.717,240
+XGBoost gain,gap,CDFT reactivity,0.717,240
+XGBoost gain,Wnu1.unity,Physicochemical,0.713,240
+XGBoost gain,Wnu2.unity,Physicochemical,0.708,240
+XGBoost gain,MOMI.XY,Physicochemical,0.696,240
+XGBoost gain,WK.unity,Physicochemical,0.683,240
+XGBoost gain,geomShape,Physicochemical,0.679,240
+XGBoost gain,C3SP2,Physicochemical,0.675,240
+XGBoost gain,SC.3,Physicochemical,0.667,240
+XGBoost gain,TPSA,Physicochemical,0.667,240
+XGBoost gain,SC.5,Physicochemical,0.658,240
+XGBoost gain,Wlambda3.unity,Physicochemical,0.65,240
+XGBoost gain,FPSA.3,Physicochemical,0.65,240
+XGBoost gain,VC.5,Physicochemical,0.65,240
+XGBoost gain,Weta3.unity,Physicochemical,0.646,240
+XGBoost gain,WD.unity,Physicochemical,0.646,240
+XGBoost gain,ATSc2,Physicochemical,0.637,240
+XGBoost gain,SPC.5,Physicochemical,0.637,240
+XGBoost gain,ATSc4,Physicochemical,0.633,240
+XGBoost gain,MDEC.12,Physicochemical,0.633,240
+XGBoost gain,acceptor_power,CDFT reactivity,0.625,240
+XGBoost gain,TopoPSA,Physicochemical,0.617,240
+XGBoost gain,BCUTp.1l,Physicochemical,0.613,240
+XGBoost gain,VCH.7,Physicochemical,0.592,240
+XGBoost gain,MDEN.23,Physicochemical,0.588,240
+XGBoost gain,MDEO.12,Physicochemical,0.588,240
+XGBoost gain,PPSA.2,Physicochemical,0.588,240
+XGBoost gain,homo_energy,CDFT reactivity,0.583,240
+XGBoost gain,nAtomP,Physicochemical,0.579,240
+XGBoost gain,BCUTc.1l,Physicochemical,0.579,240
+XGBoost gain,Weta2.unity,Physicochemical,0.579,240
+XGBoost gain,chemical_potential,CDFT reactivity,0.571,240
+XGBoost gain,WTPT.4,Physicochemical,0.567,240
+XGBoost gain,ATSm5,Physicochemical,0.562,240
+XGBoost gain,VABC,Physicochemical,0.558,240
+XGBoost gain,FNSA.2,Physicochemical,0.558,240
+XGBoost gain,XLogP,Physicochemical,0.558,240
+XGBoost gain,homo_.1_energy,CDFT reactivity,0.554,240
+XGBoost gain,khs.aasC,Physicochemical,0.554,240
+XGBoost gain,VCH.6,Physicochemical,0.546,240
+XGBoost gain,VCH.5,Physicochemical,0.546,240
+XGBoost gain,Wlambda2.unity,Physicochemical,0.546,240
+XGBoost gain,PNSA.1,Physicochemical,0.537,240
+XGBoost gain,PPSA.3,Physicochemical,0.533,240
+XGBoost gain,FPSA.2,Physicochemical,0.529,240
+XGBoost gain,Wlambda1.unity,Physicochemical,0.525,240
+XGBoost gain,tpsaEfficiency,Physicochemical,0.521,240
+XGBoost gain,BCUTw.1l,Physicochemical,0.512,240
+XGBoost gain,FNSA.3,Physicochemical,0.508,240
+XGBoost gain,THSA,Physicochemical,0.492,240
+XGBoost gain,WT.unity,Physicochemical,0.487,240
+XGBoost gain,MOMI.YZ,Physicochemical,0.475,240
+XGBoost gain,VPC.6,Physicochemical,0.475,240
+XGBoost gain,MOMI.Z,Physicochemical,0.467,240
+XGBoost gain,ALogP,Physicochemical,0.463,240
+XGBoost gain,Fsp3,Physicochemical,0.463,240
+XGBoost gain,MLogP,Physicochemical,0.454,240
+XGBoost gain,VP.7,Physicochemical,0.454,240
+XGBoost gain,ATSc1,Physicochemical,0.45,240
+XGBoost gain,RNCG,Physicochemical,0.446,240
+XGBoost gain,MDEN.22,Physicochemical,0.433,240
+XGBoost gain,nAtomLC,Physicochemical,0.425,240
+XGBoost gain,VP.6,Physicochemical,0.417,240
+XGBoost gain,khs.aaCH,Physicochemical,0.417,240
+XGBoost gain,FPSA.1,Physicochemical,0.417,240
+XGBoost gain,BCUTp.1h,Physicochemical,0.417,240
+XGBoost gain,FMF,Physicochemical,0.4,240
+XGBoost gain,WPATH,Physicochemical,0.4,240
+XGBoost gain,PNSA.2,Physicochemical,0.4,240
+XGBoost gain,MDEC.13,Physicochemical,0.396,240
+XGBoost gain,VPC.4,Physicochemical,0.388,240
+XGBoost gain,BCUTw.1h,Physicochemical,0.388,240
+XGBoost gain,MOMI.R,Physicochemical,0.383,240
+XGBoost gain,DPSA.1,Physicochemical,0.383,240
+XGBoost gain,electrophilicity,CDFT reactivity,0.379,240
+XGBoost gain,WV.unity,Physicochemical,0.371,240
+XGBoost gain,SPC.6,Physicochemical,0.367,240
+XGBoost gain,SPC.4,Physicochemical,0.358,240
+XGBoost gain,PPSA.1,Physicochemical,0.35,240
+XGBoost gain,net_electrophilicity,CDFT reactivity,0.346,240
+XGBoost gain,PNSA.3,Physicochemical,0.342,240
+XGBoost gain,GRAV.1,Physicochemical,0.338,240
+XGBoost gain,RNCS,Physicochemical,0.338,240
+XGBoost gain,fragC,Physicochemical,0.338,240
+XGBoost gain,VC.3,Physicochemical,0.325,240
+XGBoost gain,WTPT.1,Physicochemical,0.325,240
+XGBoost gain,chemical_potential_neg,CDFT reactivity,0.321,240
+XGBoost gain,ATSp5,Physicochemical,0.312,240
+XGBoost gain,VP.2,Physicochemical,0.312,240
+XGBoost gain,SCH.7,Physicochemical,0.304,240
+XGBoost gain,WNSA.1,Physicochemical,0.296,240
+XGBoost gain,topoShape,Physicochemical,0.296,240
+XGBoost gain,SP.5,Physicochemical,0.292,240
+XGBoost gain,MOMI.Y,Physicochemical,0.287,240
+XGBoost gain,ATSm4,Physicochemical,0.287,240
+XGBoost gain,WA.unity,Physicochemical,0.283,240
+XGBoost gain,khs.sCl,Physicochemical,0.279,240
+XGBoost gain,Kier3,Physicochemical,0.275,240
+XGBoost gain,khs.aaaC,Physicochemical,0.275,240
+XGBoost gain,VP.4,Physicochemical,0.267,240
+XGBoost gain,WPSA.3,Physicochemical,0.258,240
+XGBoost gain,DPSA.2,Physicochemical,0.258,240
+XGBoost gain,donor_power,CDFT reactivity,0.254,240
+XGBoost gain,LOBMIN,Physicochemical,0.254,240
+XGBoost gain,MOMI.X,Physicochemical,0.25,240
+XGBoost gain,ATSp3,Physicochemical,0.246,240
+XGBoost gain,bpol,Physicochemical,0.246,240
+XGBoost gain,WPSA.2,Physicochemical,0.237,240
+XGBoost gain,SP.6,Physicochemical,0.233,240
+XGBoost gain,chemical_potential_pos,CDFT reactivity,0.229,240
+XGBoost gain,MDEO.11,Physicochemical,0.225,240
+XGBoost gain,VPC.5,Physicochemical,0.221,240
+XGBoost gain,WNSA.3,Physicochemical,0.221,240
+XGBoost gain,Zagreb,Physicochemical,0.221,240
+XGBoost gain,VP.1,Physicochemical,0.217,240
+XGBoost gain,WPOL,Physicochemical,0.217,240
+XGBoost gain,MW,Physicochemical,0.208,240
+XGBoost gain,ATSm1,Physicochemical,0.204,240
+XGBoost gain,WNSA.2,Physicochemical,0.2,240
+XGBoost gain,WPSA.1,Physicochemical,0.2,240
+XGBoost gain,SP.3,Physicochemical,0.196,240
+XGBoost gain,khs.aaN,Physicochemical,0.192,240
+XGBoost gain,khs.dssC,Physicochemical,0.192,240
+XGBoost gain,SP.2,Physicochemical,0.192,240
+XGBoost gain,RPSA,Physicochemical,0.188,240
+XGBoost gain,DPSA.3,Physicochemical,0.183,240
+XGBoost gain,VP.3,Physicochemical,0.183,240
+XGBoost gain,SP.4,Physicochemical,0.175,240
+XGBoost gain,ATSm3,Physicochemical,0.167,240
+XGBoost gain,khs.ssCH2,Physicochemical,0.163,240
+XGBoost gain,nAromBlocks,Physicochemical,0.158,240
+XGBoost gain,GRAV.4,Physicochemical,0.154,240
+XGBoost gain,VP.5,Physicochemical,0.154,240
+XGBoost gain,C2SP3,Physicochemical,0.15,240
+XGBoost gain,SP.7,Physicochemical,0.146,240
+XGBoost gain,AMR,Physicochemical,0.146,240
+XGBoost gain,GRAVH.1,Physicochemical,0.142,240
+XGBoost gain,nRingBlocks,Physicochemical,0.129,240
+XGBoost gain,nAtomLAC,Physicochemical,0.129,240
+XGBoost gain,nRotB,Physicochemical,0.125,240
+XGBoost gain,MDEN.33,Physicochemical,0.125,240
+XGBoost gain,Kier2,Physicochemical,0.121,240
+XGBoost gain,nAromBond,Physicochemical,0.121,240
+XGBoost gain,VP.0,Physicochemical,0.117,240
+XGBoost gain,MDEO.22,Physicochemical,0.113,240
+XGBoost gain,ATSp1,Physicochemical,0.108,240
+XGBoost gain,C1SP3,Physicochemical,0.104,240
+XGBoost gain,ATSp2,Physicochemical,0.104,240
+XGBoost gain,C2SP2,Physicochemical,0.092,240
+XGBoost gain,nSmallRings,Physicochemical,0.083,240
+XGBoost gain,softness,CDFT reactivity,0.083,240
+XGBoost gain,khs.sF,Physicochemical,0.083,240
+XGBoost gain,nAromRings,Physicochemical,0.079,240
+XGBoost gain,apol,Physicochemical,0.075,240
+XGBoost gain,nHBDon,Physicochemical,0.071,240
+XGBoost gain,ATSp4,Physicochemical,0.071,240
+XGBoost gain,nHBAcc,Physicochemical,0.067,240
+XGBoost gain,VAdjMat,Physicochemical,0.067,240
+XGBoost gain,ATSm2,Physicochemical,0.058,240
+XGBoost gain,electronegativity,CDFT reactivity,0.05,240
+XGBoost gain,khs.sOH,Physicochemical,0.05,240
+XGBoost gain,LipinskiFailures,Physicochemical,0.046,240
+XGBoost gain,family_Coumarin,Chemical family,0.046,240
+XGBoost gain,khs.ssNH,Physicochemical,0.042,240
+XGBoost gain,affinity_electronic,CDFT reactivity,0.042,240
+XGBoost gain,family_Triazol,Chemical family,0.037,240
+XGBoost gain,potential_ionization,CDFT reactivity,0.037,240
+XGBoost gain,SP.0,Physicochemical,0.037,240
+XGBoost gain,nAtom,Physicochemical,0.033,240
+XGBoost gain,khs.sssN,Physicochemical,0.029,240
+XGBoost gain,khs.aasN,Physicochemical,0.025,240
+XGBoost gain,khs.dO,Physicochemical,0.025,240
+XGBoost gain,SP.1,Physicochemical,0.025,240
+XGBoost gain,Kier1,Physicochemical,0.025,240
+XGBoost gain,nRings5,Physicochemical,0.025,240
+XGBoost gain,khs.ssO,Physicochemical,0.025,240
+XGBoost gain,khs.sssCH,Physicochemical,0.017,240
+XGBoost gain,SCH.5,Physicochemical,0.017,240
+XGBoost gain,khs.aaS,Physicochemical,0.017,240
+XGBoost gain,MDEC.11,Physicochemical,0.017,240
+XGBoost gain,khs.dsCH,Physicochemical,0.017,240
+XGBoost gain,FNSA.1,Physicochemical,0.013,240
+XGBoost gain,naAromAtom,Physicochemical,0.013,240
+XGBoost gain,khs.dS,Physicochemical,0.008,240
+XGBoost gain,khs.aaNH,Physicochemical,0.008,240
+XGBoost gain,khs.ssS,Physicochemical,0.008,240
+XGBoost gain,khs.aaO,Physicochemical,0.008,240
+XGBoost gain,family_Otros,Chemical family,0.008,240

@@ -1,0 +1,13 @@
+Compound set,Activity definition,Modeled compounds (n),"Training, 80% (n)","Test, 20% (n)"
+600 records,5 uM,600,480,120
+600 records,5 and 50 uM,420,336,84
+600 records,10 uM,600,480,120
+600 records,10 and 50 uM,439,351,88
+600 records,25 uM,600,480,120
+600 records,25 and 50 uM,495,396,99
+387 structures,5 uM,387,310,77
+387 structures,5 and 50 uM,271,217,54
+387 structures,10 uM,387,310,77
+387 structures,10 and 50 uM,281,225,56
+387 structures,25 uM,387,310,77
+387 structures,25 and 50 uM,313,250,63

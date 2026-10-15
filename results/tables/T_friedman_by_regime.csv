@@ -1,0 +1,4 @@
+regime,n_matched_configurations,friedman_chi2,friedman_p,mean_rank_cdft,mean_rank_physchem,mean_rank_combined,median_mcc_cdft,median_mcc_physchem,median_mcc_combined
+"387 structures, random split",2520,2796.24,0.0,2.83,1.6,1.57,0.537,0.736,0.738
+"387 structures, scaffold split",2520,1059.62,8.04949914477394e-231,2.51,1.7,1.79,0.329,0.556,0.536
+"600 records, random split",2520,3258.72,0.0,2.9,1.48,1.62,0.472,0.696,0.684

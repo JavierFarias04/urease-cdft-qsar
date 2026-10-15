@@ -1,0 +1,18 @@
+{
+  "eda": {
+    "n_records": 600,
+    "n_unique_structures": 387,
+    "n_censored": 144,
+    "pct_censored": 24.0,
+    "ic50_min": 0.009,
+    "ic50_median": 37.4,
+    "ic50_max": 2700.0
+  },
+  "tce_hartree": -0.34429,
+  "tce_eV": -9.368608170631207,
+  "cdft_median_abs_r": 0.5936004567393433,
+  "n_scaffolds": 85,
+  "median_pairwise_tanimoto": 0.12087912087912088,
+  "median_nn_tanimoto": 0.82,
+  "frac_nn_above_0p7": 0.8268733850129198
+}

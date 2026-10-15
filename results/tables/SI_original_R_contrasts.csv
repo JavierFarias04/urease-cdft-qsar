@@ -1,0 +1,4 @@
+comparison,median_delta,mean_delta,q1,q3,n_pairs,n_favoring_second,wilcoxon_p,nemenyi_p
+physchem - cdft,0.193,0.192,0.093,0.297,252.000,226.000,0.000,0.000
+combined - cdft,0.193,0.183,0.091,0.278,252.000,233.000,0.000,0.000
+combined - physchem,-0.008,-0.008,-0.086,0.072,252.000,121.000,0.284,0.990

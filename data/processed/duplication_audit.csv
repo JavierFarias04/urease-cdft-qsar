@@ -1,0 +1,5 @@
+level,n_unique,n_duplicate_groups,n_rows_in_duplicate_groups,n_groups_discordant_IC50,n_groups_mixing_censored_and_measured,n_groups_discordant_class_5uM,n_groups_discordant_class_10uM,n_groups_discordant_class_25uM
+canonical SMILES (standardized),475,114,239,23,20,20,20,20
+InChIKey (full),387,157,370,16,12,11,11,11
+InChIKey connectivity block,331,155,424,16,12,11,11,11
+Bemis-Murcko scaffold,86,65,579,45,15,9,12,21

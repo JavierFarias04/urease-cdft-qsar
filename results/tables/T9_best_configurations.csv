@@ -1,0 +1,16 @@
+Descriptor block,Chemical family,Feature selection,Classifier,MCC (dimensionless),95% CI (dimensionless),Balanced accuracy (dimensionless),AUC (dimensionless),Sensitivity (dimensionless),Specificity (dimensionless),Descriptors retained (n)
+Combined,excluded,XGBoost gain,XGBoost,0.599,0.050,0.804,0.879,0.788,0.820,76
+Physicochemical,included,Boruta,k-nearest neighbors,0.591,0.064,0.803,0.863,0.807,0.799,26
+Combined,included,XGBoost gain,XGBoost,0.591,0.053,0.799,0.879,0.779,0.820,76
+Physicochemical,included,Boruta,Random forest,0.590,0.061,0.797,0.878,0.778,0.816,26
+Physicochemical,excluded,Boruta,k-nearest neighbors,0.587,0.065,0.800,0.857,0.808,0.792,26
+Physicochemical,excluded,Boruta,Random forest,0.585,0.063,0.793,0.876,0.780,0.806,26
+Physicochemical,included,Boruta,XGBoost,0.584,0.064,0.796,0.858,0.777,0.814,26
+Physicochemical,included,XGBoost gain,XGBoost,0.579,0.052,0.796,0.871,0.772,0.821,72
+Physicochemical,excluded,XGBoost gain,XGBoost,0.578,0.055,0.795,0.874,0.770,0.819,72
+Physicochemical,excluded,none,Logistic regression,0.578,0.054,0.796,0.865,0.785,0.808,205
+Combined,excluded,Boruta,XGBoost,0.577,0.056,0.794,0.873,0.789,0.798,27
+Physicochemical,included,XGBoost gain,Logistic regression,0.575,0.051,0.793,0.859,0.768,0.818,72
+Physicochemical,excluded,none,XGBoost,0.573,0.057,0.792,0.872,0.770,0.814,205
+Combined,excluded,Boruta,Random forest,0.573,0.065,0.788,0.883,0.765,0.811,27
+Combined,included,Boruta,Random forest,0.573,0.066,0.789,0.882,0.760,0.818,27

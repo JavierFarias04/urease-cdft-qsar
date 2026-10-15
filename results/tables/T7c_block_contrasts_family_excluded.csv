@@ -1,0 +1,10 @@
+Evaluation protocol,Contrast,Pairs (n),Median dMCC (dimensionless),Mean dMCC (dimensionless),95% CI half-width (dimensionless),% favoring the first term,Rank-biserial r (dimensionless),Wilcoxon p (dimensionless),Nemenyi p (dimensionless)
+"387 structures, random split",Physicochemical - CDFT reactivity,1260,0.220,0.225,0.008,94.4,0.891,6.79e-197,0
+"387 structures, random split",Combined - CDFT reactivity,1260,0.225,0.226,0.008,94.3,0.887,5.38e-199,0
+"387 structures, random split",Combined - Physicochemical,1260,0.000,0.002,0.003,39.0,0.020,0.305,0.9
+"387 structures, scaffold split",Physicochemical - CDFT reactivity,1260,0.235,0.242,0.018,79.1,0.588,2.29e-101,0
+"387 structures, scaffold split",Combined - CDFT reactivity,1260,0.219,0.233,0.018,78.0,0.566,2.21e-100,0
+"387 structures, scaffold split",Combined - Physicochemical,1260,0.000,-0.009,0.007,34.8,-0.060,0.00149,0.172
+"600 records, random split",Physicochemical - CDFT reactivity,1260,0.295,0.295,0.007,98.3,0.967,3.59e-206,0
+"600 records, random split",Combined - CDFT reactivity,1260,0.286,0.286,0.007,98.3,0.966,3.84e-206,0
+"600 records, random split",Combined - Physicochemical,1260,0.000,-0.008,0.003,33.7,-0.127,1.66e-09,0.00383

@@ -1,0 +1,4 @@
+Descriptor block,n_variables,n_PC_50,n_PC_90,n_PC_95,n_PC_99,var_PC1,var_PC1_PC2,participation_ratio
+CDFT reactivity,18.000,1.000,3.000,3.000,4.000,0.694,0.853,2.450
+Physicochemical,226.000,2.000,18.000,27.000,50.000,0.396,0.530,12.330
+Combined,244.000,2.000,19.000,29.000,52.000,0.368,0.503,13.420

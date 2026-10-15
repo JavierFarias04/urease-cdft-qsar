@@ -1,0 +1,13 @@
+dataset,strategy,kind,n_UI,n_nUI,n_total,n_excluded,pct_minority
+raw600,5 uM,single-cutoff,106,494,600,0,17.7
+raw600,5 and 50 uM,two-cutoff,106,314,420,180,25.2
+raw600,10 uM,single-cutoff,125,475,600,0,20.8
+raw600,10 and 50 uM,two-cutoff,125,314,439,161,28.5
+raw600,25 uM,single-cutoff,181,419,600,0,30.2
+raw600,25 and 50 uM,two-cutoff,181,314,495,105,36.6
+dedup387,5 uM,single-cutoff,87,300,387,0,22.5
+dedup387,5 and 50 uM,two-cutoff,87,184,271,116,32.1
+dedup387,10 uM,single-cutoff,97,290,387,0,25.1
+dedup387,10 and 50 uM,two-cutoff,97,184,281,106,34.5
+dedup387,25 uM,single-cutoff,129,258,387,0,33.3
+dedup387,25 and 50 uM,two-cutoff,129,184,313,74,41.2

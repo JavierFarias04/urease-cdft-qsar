@@ -1,0 +1,10 @@
+Evaluation protocol,Descriptor block,Pairs (n),Median dMCC (dimensionless),Mean dMCC (dimensionless),95% CI half-width (dimensionless),% favoring inclusion,Wilcoxon p (dimensionless)
+"387 structures, random split",CDFT reactivity,1260,0.064,0.071,0.006,67.6,1.87e-92
+"387 structures, random split",Combined,1260,0.000,0.001,0.002,21.9,0.932
+"387 structures, random split",Physicochemical,1260,0.000,-0.000,0.002,20.3,0.306
+"387 structures, scaffold split",CDFT reactivity,1260,0.031,0.057,0.013,54.0,1.51e-21
+"387 structures, scaffold split",Combined,1260,0.000,-0.007,0.005,23.6,0.228
+"387 structures, scaffold split",Physicochemical,1260,0.000,-0.002,0.006,24.0,0.748
+"600 records, random split",CDFT reactivity,1260,0.249,0.251,0.007,97.1,1.39e-204
+"600 records, random split",Combined,1260,0.118,0.132,0.006,92.1,3.15e-192
+"600 records, random split",Physicochemical,1260,0.121,0.133,0.006,91.6,1.12e-191

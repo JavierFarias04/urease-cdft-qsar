@@ -1,0 +1,4 @@
+block,n_descriptors,n_constant,n_informative
+CDFT global reactivity (Koopmans),19,1,18
+Physicochemical and topological (CDK),287,61,226
+Combined,306,62,244

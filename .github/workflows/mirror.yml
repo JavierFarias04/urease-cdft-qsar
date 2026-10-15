@@ -1,0 +1,58 @@
+# Mirror unidireccional: este repositorio -> repositorio de otra cuenta.
+# Configuracion en el repositorio ORIGINAL:
+#   Settings > Secrets and variables > Actions
+#   Variable MIRROR_REPO = usuario-secundario/urease-cdft-qsar
+#   Secret   MIRROR_TOKEN = token fine-grained de la cuenta secundaria
+# El token debe tener alcance SOLO sobre el repositorio de destino,
+# con permisos Contents: Read and write y Workflows: Read and write.
+# ATENCION: git push --mirror SOBREESCRIBE y borra refs exclusivas del destino.
+name: Sincronizar mirror secundario
+
+on:
+  push:
+    branches: ['**']
+    tags: ['**']
+  delete:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: espejo-github
+  cancel-in-progress: false
+
+jobs:
+  sincronizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Replicar ramas y etiquetas
+        shell: bash
+        env:
+          PRIMARY_TOKEN: ${{ github.token }}
+          MIRROR_TOKEN: ${{ secrets.MIRROR_TOKEN }}
+          MIRROR_REPO: ${{ vars.MIRROR_REPO }}
+        run: |
+          set -euo pipefail
+          if [[ -z "${MIRROR_TOKEN}" || -z "${MIRROR_REPO}" ]]; then
+            echo "Mirror no configurado: faltan MIRROR_REPO y/o MIRROR_TOKEN."
+            exit 0
+          fi
+          if [[ ! "${MIRROR_REPO}" =~ ^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$ ]]; then
+            echo "MIRROR_REPO debe tener formato usuario/repositorio."
+            exit 1
+          fi
+          if [[ "${MIRROR_REPO}" == "${GITHUB_REPOSITORY}" ]]; then
+            echo "No se puede usar el repositorio de origen como destino."
+            exit 1
+          fi
+          export GIT_TERMINAL_PROMPT=0
+          primary_header="AUTHORIZATION: basic $(printf 'x-access-token:%s' "${PRIMARY_TOKEN}" | base64 -w0)"
+          mirror_header="AUTHORIZATION: basic $(printf 'x-access-token:%s' "${MIRROR_TOKEN}" | base64 -w0)"
+          # Un clone --bare obtiene branches y tags, no refs/pull de GitHub.
+          git -c "http.https://github.com/.extraheader=${primary_header}" \
+            clone --bare "https://github.com/${GITHUB_REPOSITORY}.git" origen.git
+          git -C origen.git \
+            -c "http.https://github.com/.extraheader=${mirror_header}" \
+            push --mirror "https://github.com/${MIRROR_REPO}.git"
+          echo "Mirror actualizado."

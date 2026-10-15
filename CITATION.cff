@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the accompanying article."
+title: "Quantum-chemical reactivity descriptors add no detectable predictive value to physicochemical descriptors for Helicobacter pylori urease inhibition"
+abstract: >-
+  Data and code for a controlled comparison of three descriptor blocks — physicochemical/topological, conceptual-DFT global reactivity, and their union — for classifying Helicobacter pylori urease inhibitors, evaluated under random and scaffold-based partitioning.
+version: 1.0.0
+license: MIT
+authors:
+  - given-names: "[PENDING]"
+    family-names: "[PENDING]"
+    affiliation: "[PENDING]"

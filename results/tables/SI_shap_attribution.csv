@@ -1,0 +1,6 @@
+family,origin,n_models,mean_share_pct,ci95_pct
+included,CDFT reactivity,60.000,5.130,0.560
+included,Chemical family,60.000,0.270,0.090
+included,Physicochemical,60.000,94.600,0.560
+excluded,CDFT reactivity,60.000,5.070,0.550
+excluded,Physicochemical,60.000,94.930,0.550

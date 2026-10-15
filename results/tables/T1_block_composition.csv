@@ -1,0 +1,4 @@
+Descriptor block,Descriptors computed (n),Constant or near-constant (n),Informative on this set (n),Source
+Physicochemical and topological (CDK),287,61,226,"rcdk / CDK, 2D structure"
+CDFT global reactivity (Koopmans),19,1,18,B3LYP-D3/6-31G frontier orbital energies
+Combined,306,62,244,union of the two blocks

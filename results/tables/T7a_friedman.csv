@@ -1,0 +1,4 @@
+Evaluation protocol,Matched configurations (n),Friedman chi-square (dimensionless),p (dimensionless),Mean rank CDFT,Mean rank physicochemical,Mean rank combined,Median MCC CDFT (dimensionless),Median MCC physicochemical (dimensionless),Median MCC combined (dimensionless)
+"387 structures, random split",2520,2796.240,0,2.830,1.600,1.570,0.537,0.736,0.738
+"387 structures, scaffold split",2520,1059.620,8.05e-231,2.510,1.700,1.790,0.329,0.556,0.536
+"600 records, random split",2520,3258.720,0,2.900,1.480,1.620,0.472,0.696,0.684

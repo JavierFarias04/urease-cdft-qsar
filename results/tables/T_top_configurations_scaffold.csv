@@ -1,0 +1,16 @@
+block,family,selection,algorithm,mcc_mean,mcc_ci95,bacc_mean,auc_mean,sens_mean,spec_mean,n_selected
+combined,excluded,XGBoost gain,XGBoost,0.5993,0.0501,0.8038,0.8793,0.7878,0.8198,75.65
+physchem,included,Boruta,k-nearest neighbors,0.5913,0.0637,0.8027,0.8633,0.8066,0.7989,25.5333
+combined,included,XGBoost gain,XGBoost,0.5909,0.0526,0.7994,0.8788,0.7786,0.8202,75.7167
+physchem,included,Boruta,Random forest,0.5896,0.0609,0.797,0.8783,0.7781,0.816,25.5333
+physchem,excluded,Boruta,k-nearest neighbors,0.5867,0.0654,0.8,0.8566,0.8077,0.7922,25.55
+physchem,excluded,Boruta,Random forest,0.5845,0.0631,0.793,0.8762,0.7798,0.8061,25.55
+physchem,included,Boruta,XGBoost,0.5837,0.0638,0.7957,0.8578,0.7775,0.814,25.5333
+physchem,included,XGBoost gain,XGBoost,0.5793,0.0521,0.7961,0.8709,0.7717,0.8205,71.7333
+physchem,excluded,XGBoost gain,XGBoost,0.5779,0.0546,0.7949,0.8735,0.7704,0.8194,71.5667
+physchem,excluded,none,Logistic regression,0.5775,0.0543,0.7963,0.8645,0.7849,0.8077,204.9167
+combined,excluded,Boruta,XGBoost,0.5774,0.0559,0.7936,0.873,0.7894,0.7978,26.9
+physchem,included,XGBoost gain,Logistic regression,0.5751,0.051,0.7928,0.8591,0.7682,0.8175,71.7333
+physchem,excluded,none,XGBoost,0.5734,0.0573,0.7918,0.8715,0.7699,0.8137,204.9167
+combined,excluded,Boruta,Random forest,0.5732,0.0649,0.788,0.8835,0.7647,0.8113,26.9
+combined,included,Boruta,Random forest,0.5731,0.0658,0.7886,0.8822,0.7598,0.8175,26.7167

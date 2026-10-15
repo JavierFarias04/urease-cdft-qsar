@@ -1,0 +1,10 @@
+regime,comparison,n_pairs,median_delta,mean_delta,ci95_delta,pct_favoring_second,rank_biserial,wilcoxon_p,nemenyi_p
+"387 structures, random split",Physicochemical - CDFT reactivity,2520,0.1833,0.189,0.0056,91.3,0.833,0.0,0.0
+"387 structures, random split",Combined - CDFT reactivity,2520,0.1883,0.1911,0.0056,91.3,0.831,0.0,0.0
+"387 structures, random split",Combined - Physicochemical,2520,0.0,0.0021,0.0022,39.2,0.028,0.05532595012750573,0.603594380362196
+"387 structures, scaffold split",Physicochemical - CDFT reactivity,2520,0.2061,0.2125,0.0128,75.6,0.519,7.792853462772356e-173,0.0
+"387 structures, scaffold split",Combined - CDFT reactivity,2520,0.1917,0.2004,0.0126,74.7,0.502,3.929300471876326e-165,0.0
+"387 structures, scaffold split",Combined - Physicochemical,2520,0.0,-0.012,0.0047,34.5,-0.075,2.1423730253753775e-07,0.008890654322229685
+"600 records, random split",Physicochemical - CDFT reactivity,2520,0.234,0.2355,0.0055,94.6,0.896,0.0,0.0
+"600 records, random split",Combined - CDFT reactivity,2520,0.2239,0.2266,0.0055,94.7,0.898,0.0,0.0
+"600 records, random split",Combined - Physicochemical,2520,0.0,-0.0089,0.0018,31.5,-0.145,6.85545507084461e-21,9.840840985431143e-07

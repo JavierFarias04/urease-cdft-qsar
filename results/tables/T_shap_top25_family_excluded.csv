@@ -1,0 +1,26 @@
+,mean_shap_share,origin,rank
+C1SP2,10.244,Physicochemical,1
+WTPT.5,5.759,Physicochemical,2
+SCH.6,3.972,Physicochemical,3
+BCUTc.1h,3.576,Physicochemical,4
+VCH.5,2.955,Physicochemical,5
+BCUTw.1l,1.686,Physicochemical,6
+RHSA,1.609,Physicochemical,7
+MDEO.12,1.548,Physicochemical,8
+BCUTc.1l,1.476,Physicochemical,9
+WK.unity,1.404,Physicochemical,10
+VCH.6,1.357,Physicochemical,11
+MDEN.23,1.252,Physicochemical,12
+Wnu2.unity,1.191,Physicochemical,13
+RNCS,1.16,Physicochemical,14
+Weta3.unity,1.153,Physicochemical,15
+ATSc4,1.144,Physicochemical,16
+ATSm5,1.144,Physicochemical,17
+ATSc5,1.032,Physicochemical,18
+WTPT.4,1.009,Physicochemical,19
+TopoPSA,1.006,Physicochemical,20
+BCUTp.1l,0.997,Physicochemical,21
+MDEC.12,0.941,Physicochemical,22
+Weta2.unity,0.938,Physicochemical,23
+RPCS,0.899,Physicochemical,24
+gap,0.896,CDFT reactivity,25

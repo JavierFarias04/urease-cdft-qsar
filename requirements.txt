@@ -1,0 +1,14 @@
+# Pip alternative to environment.yml.
+rdkit
+scikit-learn>=1.7
+xgboost>=3.0
+imbalanced-learn
+shap
+scikit-posthocs
+pandas
+numpy
+scipy
+matplotlib
+openpyxl
+joblib
+statsmodels

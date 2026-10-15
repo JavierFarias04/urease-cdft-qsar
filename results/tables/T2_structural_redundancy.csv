@@ -1,0 +1,5 @@
+Level of structural identity,Distinct entities (n),Groups with >1 record (n),Records in such groups (n),Groups with discordant IC50 (n),Groups mixing censored and measured (n),Groups with discordant class at 10 uM (n)
+canonical SMILES (standardized),475,114,239,23,20,20
+InChIKey (full),387,157,370,16,12,11
+InChIKey connectivity block,331,155,424,16,12,11
+Bemis-Murcko scaffold,86,65,579,45,15,12

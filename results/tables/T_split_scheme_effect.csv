@@ -1,0 +1,13 @@
+block,family,n_configurations,mcc_random,mcc_scaffold,mean_delta,ci95,pct_relative_drop,wilcoxon_p,contrast
+CDFT reactivity,included,126,0.563,0.342,-0.221,0.02,39.3,5.655585742727457e-22,scaffold vs random split (387 structures)
+CDFT reactivity,excluded,126,0.492,0.284,-0.208,0.017,42.2,2.4578048330407235e-22,scaffold vs random split (387 structures)
+Physicochemical,included,126,0.716,0.525,-0.192,0.018,26.7,5.523063731199029e-22,scaffold vs random split (387 structures)
+Physicochemical,excluded,126,0.717,0.526,-0.19,0.018,26.6,6.366885593563886e-22,scaffold vs random split (387 structures)
+Combined,included,126,0.719,0.51,-0.209,0.018,29.0,4.460541089966252e-22,scaffold vs random split (387 structures)
+Combined,excluded,126,0.718,0.517,-0.201,0.018,28.0,5.393615332811454e-22,scaffold vs random split (387 structures)
+CDFT reactivity,included,126,0.585,0.563,-0.022,0.013,3.8,0.002586534712230823,"duplicate removal (600 -> 387, both random)"
+CDFT reactivity,excluded,126,0.334,0.492,0.158,0.016,-47.3,3.9604720236023224e-22,"duplicate removal (600 -> 387, both random)"
+Physicochemical,included,126,0.761,0.716,-0.045,0.01,5.9,6.780319945386926e-13,"duplicate removal (600 -> 387, both random)"
+Physicochemical,excluded,126,0.629,0.717,0.088,0.013,-14.0,2.3757932178624877e-21,"duplicate removal (600 -> 387, both random)"
+Combined,included,126,0.752,0.719,-0.033,0.009,4.4,1.6425225817599204e-09,"duplicate removal (600 -> 387, both random)"
+Combined,excluded,126,0.62,0.718,0.098,0.012,-15.8,2.6405373912605835e-22,"duplicate removal (600 -> 387, both random)"

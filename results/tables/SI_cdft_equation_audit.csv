@@ -1,0 +1,17 @@
+descriptor,equation_reproduced,max_abs_deviation,pearson_r
+gap,True,0.000,1.000
+potential_ionization,True,0.000,1.000
+affinity_electronic,True,0.000,1.000
+chemical_potential,True,0.000,1.000
+hardness,True,0.000,1.000
+softness,True,0.000,1.000
+electronegativity,True,0.000,1.000
+electrophilicity,True,0.000,1.000
+acceptor_power,True,0.000,1.000
+donor_power,True,0.000,1.000
+chemical_potential_pos,True,0.000,1.000
+chemical_potential_neg,True,0.000,1.000
+hyperhardness,True,0.000,1.000
+net_electrophilicity [tested as w+ + w-],True,0.000,1.000
+net_electrophilicity [tested as w+ - w-],False,1.111,-0.601
+nucleophilicity [implied E_HOMO(TCE) is constant],True,0.000,1.000

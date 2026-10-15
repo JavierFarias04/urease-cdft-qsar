@@ -1,0 +1,5 @@
+diagnostic,n,pct
+E_HOMO > 0 (unbound HOMO; Koopmans IP < 0),68.000,11.300
+E_LUMO > 0 (virtual orbital unbound; Koopmans EA < 0),271.000,45.200
+E_HOMO > 0 and E_LUMO > 0,68.000,11.300
+chemical potential mu > 0,116.000,19.300

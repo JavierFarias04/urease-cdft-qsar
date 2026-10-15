@@ -1,0 +1,4 @@
+block,n_variables,n_PC_50,n_PC_90,n_PC_95,n_PC_99,var_PC1,var_PC1_PC2,participation_ratio
+CDFT reactivity,18,1,3,3,4,0.694,0.8526,2.45
+Physicochemical,226,2,18,27,50,0.3963,0.5298,12.33
+Combined,244,2,19,29,52,0.3685,0.5035,13.42

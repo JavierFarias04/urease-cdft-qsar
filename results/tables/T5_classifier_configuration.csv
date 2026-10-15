@@ -1,0 +1,8 @@
+Classifier,Implementation,Setting (identical for every descriptor block)
+Random forest,scikit-learn RandomForestClassifier,"500 trees, sqrt(p) features per split, unlimited depth"
+SVM (RBF kernel),scikit-learn SVC,"C = 1.0, gamma = 1/(p var(X)), probability estimates enabled"
+Decision tree (CART),scikit-learn DecisionTreeClassifier,"Gini impurity, unlimited depth"
+XGBoost,xgboost XGBClassifier,"200 rounds, max_depth 4, eta 0.1, subsample 0.9, colsample 0.8, lambda 1"
+k-nearest neighbors,scikit-learn KNeighborsClassifier,"k = 5, Euclidean distance on standardized inputs"
+Gaussian naive Bayes,scikit-learn GaussianNB,default variance smoothing 1e-9
+Logistic regression,scikit-learn LogisticRegression,"L2 penalty, C = 1.0, lbfgs, 3000 iterations"
